@@ -13,7 +13,7 @@ go install golang.org/x/mobile/cmd/gomobile@latest
 gomobile init
 ```
 
-The `gomobile` will be installed in `$GOPATH/bin`, The default `$GOPATH` is `$HOME/go`. If you got an error that
+The `gomobile` will be installed in `$GOPATH/bin`, the default `$GOPATH` is `$HOME/go`. If you got an error that
 shows `gomobile not found`, please add the bin path to `$PATH`.
 
 The `gomobile` doesn't support the latest version of NDK. We use NDK r22 for this library. Add `ANDROID_NDK_HOME`
