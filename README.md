@@ -25,7 +25,7 @@ export ANDROID_NDK_HOME=$ANDROID_HOME/ndk/22.1.7171670
 
 ### iOS & macOS
 
-Run the commands below to produce `xcframework` file that support `iOS` and `macOS`.
+Run the commands below to produce files that support `iOS` and `macOS`.
 
 ```shell
 mkdir build
@@ -40,7 +40,7 @@ make clean && make apple
 
 ### Android
 
-Run the commands below to produce `AAR` file.
+Run the commands below to produce files.
 
 ```shell
 mkdir build
